@@ -1,0 +1,234 @@
+@charset "utf-8";
+/***********************
+        default
+************************/
+
+body, h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#wrap {
+    width: 100%;
+}
+
+.cf:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.inner {
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+/***********************
+        header
+************************/
+header {
+    width: 100%;
+    height: 112px;
+    background: #669900;
+}
+
+header h1 {
+    float: left;
+    width: 200px;
+    height: 112px;
+}
+
+header h1 a {
+    display: block;
+}
+
+header h1 a img {
+    width: 210px;
+    margin-top: 13px;
+}
+
+
+/***** gnb *****/
+.gnb {
+    float: right;
+    height: 112px;
+    line-height: 112px;
+}
+.gnb li {
+    float: left;
+    width: 140px;
+}
+.gnb li a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.gnb li:last-child {
+    width: 180px;
+}
+
+.gnb li:last-child a {
+    font-size: 24px;
+}
+
+/***********************
+        mainSlider
+************************/
+
+.mainSlider {
+    width: 100%;
+    position: relative;
+}
+
+.mainSlider .cover {
+    width: 300px;
+    height: 100%;
+    
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+.mainSlider h1 {
+    position: absolute;
+    z-index: 10;
+    bottom: 30px;
+    left: 30px;
+    
+    font-size: 50px;
+}
+
+
+
+.mainSlider img {
+    display: block;
+    width: 100%;
+}
+
+
+
+/***********************
+        container
+************************/
+.container {
+    padding-top: 50px;
+    background: url(../images/cork.jpg);
+}
+
+.menu {
+    float: left;
+    width: calc(50% - 20px);
+    height: 310px;
+    
+    margin-bottom: 50px;
+    margin-right: 40px;
+    
+    overflow: hidden;
+}
+
+.menu:nth-child(2n) {
+    margin-right: 0;
+}
+
+.menu img {
+    width: 100%;
+}
+
+
+
+/***********************
+        footer
+************************/
+
+/***** top *****/
+.footerTop {
+    height: 60px;
+    background: #fbe5d6;
+}
+
+.footerTop p {
+    display: inline-block;
+    height: 60px;
+    margin-left: 1100px;
+    margin-right: 10px;
+    line-height: 60px;
+    
+    vertical-align: top;
+}
+
+.sns {
+    display: inline-block;
+}
+
+.sns li {
+    display: inline-block;
+    width: 30px;
+    padding-top: 15px;
+    vertical-align: top;
+}
+
+.sns li a {
+    display: block;
+}
+
+.sns li a img {
+    width: 100%;
+}
+
+/***** bottom *****/
+.footerBottom {
+    padding: 30px 0;
+    background: #669900;
+}
+
+.footerMenu {
+    float: left;
+    width: 25%;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.footerMenu:first-child {
+    padding-left: 150px;
+}
+
+.footerMenu h4 {
+    padding-bottom: 30px;
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footerMenu ul li {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footerMenu ul li a {
+    color: white;
+}
+
+
+
+footer h3 {
+    padding: 20px 0;
+    background: #669900;
+    
+    text-align: center;
+    color: white;
+}
